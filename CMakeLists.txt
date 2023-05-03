@@ -10,13 +10,12 @@ set (CMAKE_C_FLAGS "-std=gnu99 -O2")
 
 add_subdirectory(src)
 
-set(TEST OFF)
+set(TEST ON)
 
 # 测试
 if(TEST)
     add_subdirectory(test)
 endif()
 
-message(${PROJECT_NAME})
 # 安装
 # ...
