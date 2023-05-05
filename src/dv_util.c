@@ -1,4 +1,5 @@
 #include "core.h"
+#include <string.h>
 
 int dv_cmp(const dig_t *a, const dig_t *b, int size) {
 	int i, r;
@@ -21,8 +22,6 @@ void dv_zero(dig_t *a, int digits) {
 	for (i = 0; i < digits; i++, a++) {
 		(*a) = 0;
 	}
-
-	return;
 }
 
 void dv_lshd(dig_t *c, const dig_t *a, int size, int digits) {

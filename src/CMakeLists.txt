@@ -2,4 +2,4 @@
 aux_source_directory(. LIB_SRCS)
 
 # 生成动态链接库
-add_library(${PROJECT_NAME} SHARED ${LIB_SRCS})
+add_library(${PROJECT_NAME} STATIC ${LIB_SRCS})

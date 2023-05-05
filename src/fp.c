@@ -1,6 +1,7 @@
 #include "fp.h"
 #include "dv.h"
 #include "core.h"
+#include "fp_low.h"
 
 dig_t* fp_prime_get(){
 	return FP_PRIME;
